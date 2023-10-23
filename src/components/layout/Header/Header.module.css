@@ -1,0 +1,42 @@
+/* -------------------- Cabeçalho -------------------- */
+header{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 30px ;
+}
+
+header hr {
+    /* border: 2px solid rgb(0, 153, 255); */
+    margin-top: 0.5%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.logoContainer {
+    width: 27vh;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    text-align: center;   
+}
+
+.logoContainer a {
+    text-decoration: none;
+}
+
+.logoContainer img {
+    width: 45%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.logoContainer img:active {
+    transform: scale(1.05);
+}
+
+.logoContainer h1 {
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+    color: black;
+    /* color: rgb(0, 153, 255) */
+}
